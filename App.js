@@ -1,20 +1,31 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { VerticalMotionExample } from './examples';
+import {
+  VerticalMotionExample,
+} from './examples';
+
+const examples = {
+  verticalMotion: {
+    title: 'Vertical motion example',
+    component: VerticalMotionExample
+  }
+}
 
 export default class App extends React.Component {
   state = {
-    title: 'Animation examples'
+    currentExample: 'verticalMotion'
   }
 
   render() {
+    const { title, component } = examples[this.state.currentExample];
+
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.headerText}>{this.state.title}</Text>
+          <Text style={styles.headerText}>{title}</Text>
         </View>
 
-        <VerticalMotionExample setExampleTitle={(title) => this.setState({ title })}/>
+        { React.createElement(component) }
       </View>
     );
   }

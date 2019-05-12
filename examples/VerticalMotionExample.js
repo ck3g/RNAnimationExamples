@@ -1,16 +1,12 @@
 import React from 'react';
 import { Animated, View } from 'react-native';
 
-const TITLE = 'Vertical motion animation';
-
 class VerticalMotionExample extends React.Component {
   state = {
     animation: new Animated.Value(0)
   }
 
   componentDidMount() {
-    this.props.setExampleTitle(TITLE);
-
     Animated.timing(
       this.state.animation,
       {
