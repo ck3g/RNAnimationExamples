@@ -7,7 +7,10 @@ import {
   PositiveScaleExample,
   NegativeScaleExample,
   IncreasingSizeExample,
-  DecreasingSizeExample
+  DecreasingSizeExample,
+  RotateExample,
+  RotateXExample,
+  RotateYExample
 } from './examples';
 
 const examples = {
@@ -38,12 +41,24 @@ const examples = {
   decreasingSize: {
     title: 'Decreasing size example',
     component: DecreasingSizeExample
+  },
+  rotate: {
+    title: 'Rotate example',
+    component: RotateExample
+  },
+  rotateX: {
+    title: 'RotateX example',
+    component: RotateXExample
+  },
+  rotateY: {
+    title: 'RotateY example',
+    component: RotateYExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'decreasingSize'
+    currentExample: 'rotateY'
   }
 
   render() {
