@@ -2,18 +2,23 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import {
   VerticalMotionExample,
+  FadeOutExample
 } from './examples';
 
 const examples = {
   verticalMotion: {
     title: 'Vertical motion example',
     component: VerticalMotionExample
+  },
+  fadeOut: {
+    title: 'Fade out example',
+    component: FadeOutExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'verticalMotion'
+    currentExample: 'fadeOut'
   }
 
   render() {
