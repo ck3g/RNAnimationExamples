@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { VerticalMotionExample } from './examples';
 
 export default class App extends React.Component {
   state = {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
           <Text style={styles.headerText}>{this.state.title}</Text>
         </View>
 
+        <VerticalMotionExample setExampleTitle={(title) => this.setState({ title })}/>
       </View>
     );
   }
