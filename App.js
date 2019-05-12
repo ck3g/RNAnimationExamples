@@ -10,7 +10,8 @@ import {
   DecreasingSizeExample,
   RotateExample,
   RotateXExample,
-  RotateYExample
+  RotateYExample,
+  ChangeColorExample
 } from './examples';
 
 const examples = {
@@ -53,12 +54,16 @@ const examples = {
   rotateY: {
     title: 'RotateY example',
     component: RotateYExample
+  },
+  changeColor: {
+    title: 'Change color example',
+    component: ChangeColorExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'rotateY'
+    currentExample: 'changeColor'
   }
 
   render() {

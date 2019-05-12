@@ -8,3 +8,4 @@ export * from './DecreasingSizeExample';
 export * from './RotateExample';
 export * from './RotateXExample';
 export * from './RotateYExample';
+export * from './ChangeColorExample';
