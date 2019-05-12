@@ -5,7 +5,9 @@ import {
   FadeOutExample,
   FadeInExample,
   PositiveScaleExample,
-  NegativeScaleExample
+  NegativeScaleExample,
+  IncreasingSizeExample,
+  DecreasingSizeExample
 } from './examples';
 
 const examples = {
@@ -28,12 +30,20 @@ const examples = {
   negativeScale: {
     title: 'Negative scale example',
     component: NegativeScaleExample
+  },
+  increasingSize: {
+    title: 'Increasing size example',
+    component: IncreasingSizeExample
+  },
+  decreasingSize: {
+    title: 'Decreasing size example',
+    component: DecreasingSizeExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'negativeScale'
+    currentExample: 'decreasingSize'
   }
 
   render() {
