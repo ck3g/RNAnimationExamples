@@ -1,5 +1,7 @@
 # React Native Animation examples
 
+The source code for the [Introduction to animation in React Native](https://whatdidilearn.info/2019/05/18/introduction-to-animation-in-react-native.html) article.
+
 
 ## Animation examples
 
