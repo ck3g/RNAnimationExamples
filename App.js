@@ -63,7 +63,7 @@ const examples = {
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'changeColor'
+    currentExample: 'changeColor' // Change to see an example
   }
 
   render() {
