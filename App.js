@@ -15,7 +15,8 @@ import {
   SpringVerticalMotionExample,
   LoopRotateExample,
   EasingBounceExample,
-  SequenceExample
+  SequenceExample,
+  ParallelExample
 } from './examples';
 
 const examples = {
@@ -78,12 +79,16 @@ const examples = {
   sequence: {
     title: 'Sequence example',
     component: SequenceExample
+  },
+  parallel: {
+    title: 'Parallel example',
+    component: ParallelExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'sequence' // Change to see an example
+    currentExample: 'parallel' // Change to see an example
   }
 
   render() {
