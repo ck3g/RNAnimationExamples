@@ -11,7 +11,15 @@ import {
   RotateExample,
   RotateXExample,
   RotateYExample,
-  ChangeColorExample
+  ChangeColorExample,
+  SpringVerticalMotionExample,
+  LoopRotateExample,
+  EasingBounceExample,
+  SequenceExample,
+  ParallelExample,
+  DelayExample,
+  StaggerExample,
+  DecayExample
 } from './examples';
 
 const examples = {
@@ -58,12 +66,44 @@ const examples = {
   changeColor: {
     title: 'Change color example',
     component: ChangeColorExample
+  },
+  spring: {
+    title: 'Spring example',
+    component: SpringVerticalMotionExample
+  },
+  loop: {
+    title: 'Loop example',
+    component: LoopRotateExample
+  },
+  easingBounce: {
+    title: 'Easing bounce example',
+    component: EasingBounceExample
+  },
+  decay: {
+    title: 'Decay example',
+    component: DecayExample
+  },
+  sequence: {
+    title: 'Sequence example',
+    component: SequenceExample
+  },
+  parallel: {
+    title: 'Parallel example',
+    component: ParallelExample
+  },
+  delay: {
+    title: 'Delay example',
+    component: DelayExample
+  },
+  stagger: {
+    title: 'Stagger example',
+    component: StaggerExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'changeColor' // Change to see an example
+    currentExample: 'decay' // Change to see an example
   }
 
   render() {

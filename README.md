@@ -33,3 +33,35 @@ The source code for the [Introduction to animation in React Native](https://what
 ### Change color
 
 ![Change color](./examples/images/11-change-color.gif)
+
+### Spring
+
+![Spring](./examples/images/12-spring.gif)
+
+### Loop
+
+![Loop](./examples/images/13-loop.gif)
+
+### Decay
+
+![Decay](./examples/images/14-decay.gif)
+
+### Easing bounce
+
+![Easing bounce](./examples/images/15-easing-bounce.gif)
+
+### Sequence
+
+![Sequence](./examples/images/16-sequence.gif)
+
+### Parallel
+
+![Parallel](./examples/images/17-parallel.gif)
+
+### Delay
+
+![Delay](./examples/images/18-delay.gif)
+
+### Stagger
+
+![Stagger](./examples/images/19-stagger.gif)
