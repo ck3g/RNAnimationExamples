@@ -1,6 +1,9 @@
 # React Native Animation examples
 
-The source code for the [Introduction to animation in React Native](https://whatdidilearn.info/2019/05/18/introduction-to-animation-in-react-native.html) article.
+The source of animation examples covered in the following articles.
+
+- [Introduction to animation in React Native](https://whatdidilearn.info/2019/05/18/introduction-to-animation-in-react-native.html)
+- [More about React Native animations](https://whatdidilearn.info/2019/06/10/more-about-react-native-animations.html)
 
 
 ## Animation examples
