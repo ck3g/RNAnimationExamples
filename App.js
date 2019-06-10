@@ -14,7 +14,8 @@ import {
   ChangeColorExample,
   SpringVerticalMotionExample,
   LoopRotateExample,
-  EasingBounceExample
+  EasingBounceExample,
+  SequenceExample
 } from './examples';
 
 const examples = {
@@ -73,12 +74,16 @@ const examples = {
   easingBounce: {
     title: 'Easing bounce example',
     component: EasingBounceExample
+  },
+  sequence: {
+    title: 'Sequence example',
+    component: SequenceExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'easingBounce' // Change to see an example
+    currentExample: 'sequence' // Change to see an example
   }
 
   render() {

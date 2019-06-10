@@ -12,3 +12,4 @@ export * from './ChangeColorExample';
 export * from './SpringVerticalMotionExample';
 export * from './LoopRotateExample';
 export * from './EasingBounceExample';
+export * from './SequenceExample';
