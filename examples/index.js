@@ -15,3 +15,4 @@ export * from './EasingBounceExample';
 export * from './SequenceExample';
 export * from './ParallelExample';
 export * from './DelayExample';
+export * from './StaggerExample';

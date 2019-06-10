@@ -17,7 +17,8 @@ import {
   EasingBounceExample,
   SequenceExample,
   ParallelExample,
-  DelayExample
+  DelayExample,
+  StaggerExample
 } from './examples';
 
 const examples = {
@@ -88,12 +89,16 @@ const examples = {
   delay: {
     title: 'Delay example',
     component: DelayExample
+  },
+  stagger: {
+    title: 'Stagger example',
+    component: StaggerExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'delay' // Change to see an example
+    currentExample: 'stagger' // Change to see an example
   }
 
   render() {
