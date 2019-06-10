@@ -12,7 +12,8 @@ import {
   RotateXExample,
   RotateYExample,
   ChangeColorExample,
-  SpringVerticalMotionExample
+  SpringVerticalMotionExample,
+  LoopRotateExample
 } from './examples';
 
 const examples = {
@@ -63,12 +64,16 @@ const examples = {
   spring: {
     title: 'Spring example',
     component: SpringVerticalMotionExample
+  },
+  loop: {
+    title: 'Loop example',
+    component: LoopRotateExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'spring' // Change to see an example
+    currentExample: 'loop' // Change to see an example
   }
 
   render() {
