@@ -11,7 +11,8 @@ import {
   RotateExample,
   RotateXExample,
   RotateYExample,
-  ChangeColorExample
+  ChangeColorExample,
+  SpringVerticalMotionExample
 } from './examples';
 
 const examples = {
@@ -58,12 +59,16 @@ const examples = {
   changeColor: {
     title: 'Change color example',
     component: ChangeColorExample
+  },
+  spring: {
+    title: 'Spring example',
+    component: SpringVerticalMotionExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'changeColor' // Change to see an example
+    currentExample: 'spring' // Change to see an example
   }
 
   render() {

@@ -9,3 +9,4 @@ export * from './RotateExample';
 export * from './RotateXExample';
 export * from './RotateYExample';
 export * from './ChangeColorExample';
+export * from './SpringVerticalMotionExample';
