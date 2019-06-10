@@ -16,7 +16,8 @@ import {
   LoopRotateExample,
   EasingBounceExample,
   SequenceExample,
-  ParallelExample
+  ParallelExample,
+  DelayExample
 } from './examples';
 
 const examples = {
@@ -83,12 +84,16 @@ const examples = {
   parallel: {
     title: 'Parallel example',
     component: ParallelExample
+  },
+  delay: {
+    title: 'Delay example',
+    component: DelayExample
   }
 }
 
 export default class App extends React.Component {
   state = {
-    currentExample: 'parallel' // Change to see an example
+    currentExample: 'delay' // Change to see an example
   }
 
   render() {
