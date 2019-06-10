@@ -68,3 +68,8 @@ The source of animation examples covered in the following articles.
 ### Stagger
 
 ![Stagger](./examples/images/19-stagger.gif)
+
+
+## License
+
+[MIT](LICENSE)
